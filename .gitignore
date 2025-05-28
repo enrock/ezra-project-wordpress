@@ -1,0 +1,28 @@
+# Docker related
+.docker/
+docker-compose.override.yml
+
+# Environment files
+.env
+.env.*
+
+# IDE related
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS related
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# WordPress specific
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/cache/
+wp-content/backups/ 
